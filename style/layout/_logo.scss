@@ -1,0 +1,17 @@
+@use "../abstracts/" as *;
+/*disable Logo hover:color */
+.navigation__list-items-link--Logo:hover{
+    border-bottom: none;
+    color: #30afaf7e;
+}
+
+.navigation__list-items-logo{
+    fill: currentColor;
+    width: 3rem;
+    height: 3rem;
+    border: none;
+}
+
+.navigation__list-items-link--Logo{
+    margin-top: 1rem;
+}

@@ -1,0 +1,116 @@
+/* connect file */ /*import contact file */
+* {
+  padding: 0;
+}
+
+/*Breakpoint section*/
+/* import file via @forward "filename" */
+.navigation__list-items {
+  list-style-type: none;
+  display: block;
+  float: left;
+}
+
+.navigation__list-items-link {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.5rem 0.25rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  display: block;
+  letter-spacing: 0.2rem;
+  text-shadow: 0 0 0.56rem rgb(0, 0, 0);
+}
+.navigation__list-items-link:hover {
+  border-bottom: 3px solid #078899;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+.header {
+  background-color: rgba(7, 44, 63, 0.8078431373);
+  width: 100vw;
+  height: 40rem;
+  float: left;
+  bottom: 0;
+}
+.header-container {
+  position: relative;
+}
+
+.header__heading-container {
+  clear: both;
+}
+.header__heading-container-main {
+  padding-top: 5rem;
+  padding-left: 1.9rem;
+  font-size: 3rem;
+  text-transform: capitalize;
+  color: #fff;
+}
+.header__heading-container-description {
+  margin-top: 1rem;
+  padding-left: 1.9rem;
+  color: #fff;
+}
+
+.container {
+  max-width: 75rem;
+  margin: 0px auto;
+  padding: 0 2rem;
+}
+
+/*disable Logo hover:color */
+.navigation__list-items-link--Logo:hover {
+  border-bottom: none;
+  color: rgba(48, 175, 175, 0.4941176471);
+}
+
+.navigation__list-items-logo {
+  fill: currentColor;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+}
+
+.navigation__list-items-link--Logo {
+  margin-top: 1rem;
+}
+
+.icon {
+  fill: currentColor;
+  height: 2rem;
+  vertical-align: middle;
+  position: relative;
+  top: -0.061rem;
+}
+
+.navigation__list-items--menu {
+  float: right;
+}
+
+.navigation__list-items--menu .navigation__list-items-link:hover {
+  border-bottom: none;
+  color: rgba(48, 175, 175, 0.4941176471);
+}
+
+.navigation__list-items--menu .navigation__list-items-link {
+  margin-top: 1.7rem;
+}
+
+* {
+  content: "hallo from Components";
+}
+
+/*import Costume fonts */
+
+/*# sourceMappingURL=main.css.map */

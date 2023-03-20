@@ -1,0 +1,22 @@
+@use "../abstracts/" as *;
+
+.navigation__list-items{
+	list-style-type: none;
+	display: block;
+	float: left;
+}
+
+.navigation__list-items-link{
+	color: #ffffff;
+	text-decoration: none;
+	padding: 0.5rem 0.25rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	margin-top: 2rem;
+	display: block;
+	letter-spacing: 0.2rem;
+	text-shadow: 0 0 0.56rem rgb(0, 0, 0);
+	&:hover{
+		border-bottom: 3px solid $hover-color;
+	}
+}

@@ -1,0 +1,36 @@
+@use "../abstracts/" as *;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 100%;
+}
+
+.header{
+    background-color: $default-color;
+    width: 100vw;
+    height: 40rem;
+    float: left;
+    bottom: 0;
+    &-container{
+        position: relative;
+    }
+}
+.header__heading-container{
+    clear: both;
+
+    &-main{
+        padding-top: 5rem;
+        padding-left: 1.9rem;
+        font-size: 3rem;
+        text-transform: capitalize;
+        color: #fff;
+    }
+    &-description{
+        margin-top: 1rem;
+        padding-left: 1.9rem;
+        color: #fff;
+    }
+}
